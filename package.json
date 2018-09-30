@@ -1,7 +1,7 @@
 {
   "name": "condat",
   "version": "0.1.0",
-  "description": "A CLI tool for converting .csv files to .jsv (ndjson) files.",
+  "description": "A CLI tool for converting .csv files to .ndjson files.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jakierice/condat.git"
+  },
+  "bin": {
+    "condat": "./index.js"
   },
   "keywords": [
     "ndjson",
@@ -22,5 +25,10 @@
   "bugs": {
     "url": "https://github.com/jakierice/condat/issues"
   },
-  "homepage": "https://github.com/jakierice/condat#readme"
+  "homepage": "https://github.com/jakierice/condat#readme",
+  "dependencies": {
+    "commander": "^2.18.0",
+    "csv-to-ndjson": "^1.0.1",
+    "listr": "^0.14.2"
+  }
 }
