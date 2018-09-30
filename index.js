@@ -6,10 +6,10 @@ const csvToNdjson = require('csv-to-ndjson');
 
 program
   .version('0.1.0')
-  .option('-S, --source [source]', 'String path to file that will be converted')
+  .option('-S, --source [source]', 'Path to file that will be converted')
   .option(
     '-D, --destination [destination]',
-    'String path to file where converted data will be written'
+    'Path to file where converted data will be written'
   )
   .parse(process.argv);
 

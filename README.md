@@ -18,8 +18,8 @@ condat -S 'example-csv.csv' -D 'ndjson-result.ndjson'
 
 ```bash
   -V, --version                    output the version number
-  -S, --source [source]            String path to file that will be converted
-  -D, --destination [destination]  String path to file where converted data will be written
+  -S, --source [source]            Path to file that will be converted
+  -D, --destination [destination]  Path to file where converted data will be written
   -h, --help                       output usage information
 ```
 
