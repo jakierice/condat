@@ -50,7 +50,6 @@ condat is built using the following libraries:
 ## See Also
 
 - [`noffle/common-readme`](https://github.com/noffle/common-readme)
-- []
 
 ## License
 
